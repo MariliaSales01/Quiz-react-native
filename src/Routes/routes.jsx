@@ -13,17 +13,19 @@ export default function Routes(){
             name="Welcome"
             component={Welcome}
             options={{headerShown: false}}/>
+
             <Stack.Screen
             name="Home"
             component={Home}
             options={{headerShown: false}}/>
+
             <Stack.Screen
             name="Quiz"
             component={Quiz}/>
 
             <Stack.Screen
             name="Score"
-            component={Score}/>
+            component={Score} />
 
             </Stack.Navigator>
   
