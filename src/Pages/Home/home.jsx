@@ -1,8 +1,11 @@
 import React from 'react'
 import { View, Text, Image, TouchableOpacity, StyleSheet } from 'react-native'
+import {useNavigation} from '@react-navigation/native'
 
 export default function Home() {
+  const navigation = useNavigation();
   return (
+
     <View style={styles.container}>
         <Text style={styles.home}>Home</Text>
         <View style={styles.listra}></View>
@@ -20,7 +23,7 @@ export default function Home() {
         <Text style={styles.text}>Cada quiz tem quatro opções, o progresso do teste será mostrado no final do quiz.</Text>
       </View>
 
-      <TouchableOpacity style={styles.button} onPress={ () => navigation.navigate('Home')}>
+      <TouchableOpacity style={styles.button} onPress={ () => navigation.navigate('Quiz')}>
             <Text  style={styles.buttonText}>Jogar</Text>
         </TouchableOpacity>
 
