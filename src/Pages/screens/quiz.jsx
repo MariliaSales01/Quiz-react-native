@@ -10,12 +10,10 @@ export default function Quiz({navigation}) {
     const[selectedOption, setSelectedOption] = useState (null);
     const[isCorrect, setIsCorrect] = useState (null);
     const [quizProgress, setQuizProgress] = useState(reactQuestions.length)
-
     const progress = (currentQuestionIndex + 1) / quizProgress;
 
     const handleNext = ()=>{
         if(currentQuestionIndex === reactQuestions.length- 1){
-            // return;
 
         navigation.navigate("Score", {score: score});
     }
@@ -45,7 +43,7 @@ export default function Quiz({navigation}) {
             </View>
         
         </View>
-        <Text style={tw`text-3xl mb-20`}>{reactQuestions[currentQuestionIndex].question}</Text>
+        <Text style={tw`text-3xl mb-20 m-5`}>{reactQuestions[currentQuestionIndex].question}</Text>
         {reactQuestions[currentQuestionIndex].options.map((option)=>(
             <Pressable style= {tw` border-2 border-purple-500 p-4 m-4 rounded-md ${
                 selectedOption === option ? isCorrect ? "bg-green-200 border-green-500" : "bg-red-200 border-red-500" : "border-purple-500" 
@@ -61,7 +59,6 @@ export default function Quiz({navigation}) {
             <Text style={styles.button}>{currentQuestionIndex === reactQuestions.length- 1 ? "Finish": "Next"}</Text>
         </Pressable>
     </View>
-
 
   )}
 

@@ -25,7 +25,8 @@ export default function Routes(){
 
             <Stack.Screen
             name="Score"
-            component={Score} />
+            component={Score}
+            options={{headerShown: false}} />
 
             </Stack.Navigator>
   
