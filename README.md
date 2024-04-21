@@ -4,6 +4,8 @@
   Esse é um jogo de perguntas onde consiste em escolher entre quatro opções e no final diz qual foi sua pontuação.<br>
   A ideia desse projeto partiu do meu professor que passou uma atividade para que a turma treine a logica de programação e aprenda a mexer no react-Native.
 
+  ![figma](https://github.com/MariliaSales01/Quiz-react-native/assets/124277700/05f33a70-7f46-4c7b-abaf-f85ab38d1da8)
+
 ## Tecnologias utilizadas ✔️
   * React Native
   * Figma
