@@ -5,6 +5,8 @@
   A ideia desse projeto partiu do meu professor que passou uma atividade para que a turma treine a logica de programação e aprenda a mexer no react-Native.
 
 ## Tecnologias utilizadas ✔️
+  * React Native
+  * Figma
       
 ## Dependências necessárias ✅
   * @expo/metro-runtime - Versão: ~3.1.3
@@ -19,9 +21,12 @@
   * react-dom - Versão: 18.2.0
 
 ## Como rodar a aplicação ✅
-
+  npm start
 ## Creditos ✔️
 
 ## ⚠️ Problemas que enfrentei ⚠️
 
 ## ⏭️ Próximos passos
+  * Colocar musica;
+  * Fazer um menu;
+  * Adicionar modo light;
