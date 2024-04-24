@@ -25,9 +25,9 @@
 ## Como rodar a aplicação ✅
   npm start
 ## Creditos ✔️
-
+  A lógica do quiz foi pegada do canal: [The Awesome Dev](https://www.youtube.com/watch?v=Vd3zC-CX34A&t=2841s)
 ## ⚠️ Problemas que enfrentei ⚠️
-
+  
 ## ⏭️ Próximos passos
   * Colocar musica;
   * Fazer um menu;
