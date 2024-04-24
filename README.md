@@ -24,11 +24,17 @@
 
 ## Como rodar a aplicação ✅
   npm start
+  
 ## Creditos ✔️
   A lógica do quiz foi pegada do canal: [The Awesome Dev](https://www.youtube.com/watch?v=Vd3zC-CX34A&t=2841s)
-## ⚠️ Problemas que enfrentei ⚠️
   
+## ⚠️ Problemas que enfrentei ⚠️
+  * Tive dificuldade em usar a extenção twrnc em todas estilização.
+  * Ao rodar o projeto dava erro no terminal dizendo que não tinha o expo instalado,instalei o npm install @expo/metro-runtime denovo no projeto e voltou a funcionanar normal.
+  * No primeiro contato com o React-Native não consegui usar as rotas mas depois de assistir vários tutoriais achei até facil de mexer.
+
 ## ⏭️ Próximos passos
   * Colocar musica;
   * Fazer um menu;
   * Adicionar modo light;
+  * Não conseguir trocar a resposta depois de escolher;
