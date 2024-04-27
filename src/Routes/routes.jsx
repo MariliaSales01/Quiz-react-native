@@ -6,8 +6,10 @@ import Score from '../Pages/screens/Score'
 
 const Stack = createNativeStackNavigator();
 
+
 export default function Routes(){
     return(
+        
         <Stack.Navigator>
             <Stack.Screen
             name="Welcome"
@@ -28,7 +30,6 @@ export default function Routes(){
             component={Score}
             options={{headerShown: false}} />
 
-            </Stack.Navigator>
-  
+        </Stack.Navigator>     
     )
 }

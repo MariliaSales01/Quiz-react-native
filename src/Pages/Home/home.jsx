@@ -20,7 +20,7 @@ export default function Home() {
       <Text style={styles.title}>Instruções</Text>
 
       <View style={styles.instruçao}>
-        <Text style={styles.text}>Cada quiz tem quatro opções, o progresso do teste será mostrado no final do quiz.</Text>
+        <Text style={styles.text}>Cada pergunta tem quatros opções, a cada resposta certa vale 5 pontos, no final mostra o total.</Text>
       </View>
 
       <TouchableOpacity style={styles.button} onPress={ () => navigation.navigate('Quiz')}>
@@ -58,7 +58,7 @@ const styles = StyleSheet.create({
    marginTop: 15,
   },
   text:{
-    marginTop:'5%',    
+    marginTop:'2%',    
     textAlign:'center',
     fontSize: 18,
     fontWeight: '800',

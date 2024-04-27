@@ -44,7 +44,7 @@ const styles = StyleSheet.create({
   },
   title:{
     fontSize: 25,
-    fontWeight:"400",
+    fontWeight:"4000",
     justifyContent: 'center',
   },
   button:{
