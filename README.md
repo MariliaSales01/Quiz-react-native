@@ -32,6 +32,7 @@
   * Tive dificuldade em usar a extenção twrnc em todas estilização.
   * Ao rodar o projeto dava erro no terminal dizendo que não tinha o expo instalado,instalei o npm install @expo/metro-runtime denovo no projeto e voltou a funcionanar normal.
   * No primeiro contato com o React-Native não consegui usar as rotas mas depois de assistir vários tutoriais achei até facil de mexer.
+  * Não consegui fazer uma nav-bar na tela home do quiz, sigo todo os passos do youtube mas na hora de rodar não aparece nada.
 
 ## ⏭️ Próximos passos
   * Colocar musica;
